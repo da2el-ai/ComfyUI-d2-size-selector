@@ -3,7 +3,7 @@
 画像サイズのプリセットを簡単に呼び出し・設定できるカスタムノードです。
 設定は同梱の `config.yaml` を編集することで行えます。
 
-(Comfyroll Studio)[https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes] の `CR AspectRatio` ほぼそのままです。
+[Comfyroll Studio](https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes) の `CR AspectRatio` ほぼそのままです。
 プリセットを簡単に編集したかったので作りました。
 
 <img src="./img/screenshot.png">
