@@ -36,8 +36,9 @@ class D2_SizeSelector:
 
     def size_selector(self, width, height, preset, swap_dimensions, upscale_factor, prescale_factor, batch_size):
 
-        width = self.__class__.size_dict.get(preset).get("width", width)
-        height = self.__class__.size_dict.get(preset).get("height", height)
+        if(preset != "custom"):
+            width = self.__class__.size_dict.get(preset).get("width", width)
+            height = self.__class__.size_dict.get(preset).get("height", height)
 
         if swap_dimensions == "On":
             width, height = height, width
