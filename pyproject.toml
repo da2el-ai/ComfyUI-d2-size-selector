@@ -1,5 +1,5 @@
 [project]
-name = "comfyUI-d2-size-selector"
+name = "comfyui-d2-size-selector"
 description = "A custom node for quick image size preset recall and setup. Edit config.yaml to configure."
 version = "1.0.0"
 license = {file = "LICENSE"}
